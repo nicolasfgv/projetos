@@ -1,0 +1,29 @@
+1) Criei um repositório chamado aprendizado (/c/aprendizado).
+
+2) Criei esta pasta "anotacoes" para escrever sobre meu aprendizado no curso;
+
+3) Criei outra pasta (mkdir projetos);
+
+4) Dentro da pasta "projetos" iniciei o comando " git init "
+para iniciar o Git e possibilitá-lo a gerenciar e subvencionar o código.
+Ou seja, um comando para iniciar um repositório git. 
+
+  4.1) Perfeito, o repositório Git foi adicinado (/c/aprendizado/projetos/.git)
+".git é uma pasta oculta", visualize-a com o comando "  ls -a  "
+  
+  4.2) Liste o que tem dentro da pasta .git, seja curioso, investigue.
+No entanto, não faça nada ainda, vamos nos especializar mais.
+
+5) O próximo passo foi pré-configurar um email e username no git
+com os comandos: 
+"  git config --global user.name "NOME"  E  git config --global user.email "ENDEREÇOEMAIL@EXEMPLO.COM"  "
+
+6) Após fazer cada comando vamos criar um arquivo do tipo ".md" dentro da pasta projetos.
+  
+   6.1) Entendi que um arquivo ".md" é um arquivo do tipo Markdown, que nos permite
+escrever em "HTML" com um estilo de alto nível, ou seja, de melhor codificação.
+  
+   6.2) Criei um arquivo  " .md " com o seguinte código: 
+ "  echo '## Este é meu primeiro repositório do Git Hub' > arquivo.md  "
+
+

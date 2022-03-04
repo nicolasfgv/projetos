@@ -1,0 +1,13 @@
+1) Dentro do github vai em " Create a new repository " e faz o passo a passo da criação;
+
+2) No " git bash " insira o comando :
+" git remote add origin https://github.com/nicolasfgv/livro-receitas.git  "
+após confirmar ele vai adicionar o repositório local para o remoto.
+
+3)  Se você verificar o status verá que não haverá nada para commitar
+e a tree (árvore) estará vazia.
+
+4) Então devemos usar o comando "   git push origin master   "
+para enviarmos os arquivos para o repositório Git Hub.
+
+5) Depois disso, o repositório local estará no Git Hub

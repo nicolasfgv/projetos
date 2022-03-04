@@ -1,0 +1,39 @@
+1) Aprendi o que é o comando "git init", que é justamente um comando para iniciar
+um repositório git. 
+
+2) Aprendi alguns comandos do Git, tais como: 
+  2.1) cd nomePasta    - Permite entrar dentro da pasta "nomePasta";
+
+  2.2) cd ..    -Permite voltar para a pasta anterior;
+
+  2.3) dir  ou ls      - Faz o git listar todos os diretórios da pasta atual;
+
+     2.3.1) ls -a         - Faz o git listar todos os diretórios ocultos da pasta atual;
+
+  2.4) mkdir nomePasta    - Cria uma nova pasta chamada "nomePasta";
+
+  2.5) rmdir nomePasta    - Remove uma pasta chamada "nomePasta", caso
+realizemos este comando com um nome de pasta que não existe, o Git mostrará
+uma mensagem dizendo que tal diretório não existe.
+
+  2.6) Ao pressionar ctrl "L" no Git, vai limpar a tela;
+
+  2.7) "Seta para cima" fará aparecer os comandos mais recentes.
+
+  2.8) echo 'conteúdo do texto' > arquivo.txt - Este comando faz um arquivo.txt ser criado
+e entre as aspas simples é o conteúdo de tal arquivo.
+
+  2.9) git config --global user.name "NOME"    - Configura um username para o Git.
+
+  2.10) git config --global user.email "ENDEREÇOEMAIL@EXEMPLO.COM"   - Configura um email para o git.
+
+  2.11) " git status "   -- Mostra as condições da pasta e do estágio de untracked ou tracked.
+
+  2.12) git add *  -- Coloca todos os arquivos da pasta em "Staged"
+
+  2.13) git config –list       —--  vai trazer a lista de todas as configurações do seu GIT.
+
+  2.14) git config –global –unset user.email   --remover o “e-mail”
+
+  2.15) git config –global –unset user.name   --remover o “usuário”
+

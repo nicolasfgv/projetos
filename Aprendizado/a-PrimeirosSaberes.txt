@@ -1,0 +1,30 @@
+1) O primeiro comando que foi apresentado para mim no Git foi o 
+"ssh-keygen -t ed25519 -C   'email'. Entendi que a sua função
+é gerar um par de chaves: uma pública e uma privada, além de
+criar um diretório (/.ssh) dentro da pasta "Users" do computador.
+Dentro do diretório criado (/.ssh) haverá as duas chaves citadas
+(pública e privada).
+
+2) O segundo comando que aprendi e utilizei foi o "cat id_ed25519.pub" 
+que gerou a chave para ser adicionada no SSH Keys.
+
+3) Depois eu adicionei a chave que o "Git Bash" gerou para mim
+no Git Hub em SSH Keys e, assim, consegui criar a minha primeira
+SSH Key. 
+
+*Uhuuul, só felicidade!*
+
+4) Mas, ainda tem outro processo a ser realizado. Tal processo
+é iniciar a entidade "SSH-AGENT". Entendi, a grosso modo e 
+ sem muito aprofundar, que tem a função de captar as chaves e lidar com elas.
+
+4.1) Digitei o comando " eval $(ssh-agent -s) ". Apareceu uma nomenclatura:
+
+"  Agent pid xxx" e pelo que aprendi representa um "start" no processo.
+
+4.2) O próximo passo é entregar a nossa "chave privada" para o "Agent pid",
+por meio do comando ssh-add id_ed25519. Após pressionar fiquei feliz com
+a mensagem de êxito!!!!
+
+
+5) Pude aprender também o processo de gerar um "Personal Acess Token".

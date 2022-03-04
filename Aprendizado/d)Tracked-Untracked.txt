@@ -1,0 +1,29 @@
+1) Ao criarmos o " arquivo.md " ele é classificado como Untracked,
+pois o git ainda não sabe da existência dele.
+
+Faça um comando " git status  " e verá que não há commits ainda
+ e mostra o " arquivo.md " UNTRACKED.
+
+   1.2) Arquivos Untrackeds são arquivos que o git ainda não sabe da existência;
+
+
+2) Para passarmos de "Untracked" para "Staged" podemos usar alguns comandos:
+
+"git add arquivo.md"  ou "git add *"  ou "git add ." ou "git add -all"
+
+3) Ao digitar um dos comandos, cheque o status novamente da pasta 
+Observe que agora o arquivo está em "Staged", aguardando para serem commitados.
+
+
+4) Não façamos ele esperar, digite o comando: 
+
+"    git commit -m "cria meu primeiro arquivo markdown"     "
+
+Cheque o status
+
+
+5) Aqui aprendemos a incluir um arquivo "Untracked" para "staged" e de "staged" para "commit".
+
+Apenas uma observação: Tracked é subdividido em (Staged, Modified, Commit)
+modified é o estágio de um arquivo já no Git que foi alterado, precisa ir
+para staged novamente.
