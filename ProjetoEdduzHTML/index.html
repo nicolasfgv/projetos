@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html>
+   <head>
+     <meta charset="utf-8">
+       <title> ProjetoEdduz </title>
+       <link rel="stylesheet" href="style.css"> <!-- Neste código estou falando o tipo de arquivo que estou linkando e o endereço dele -->
+   </head> 
+
+   <body>
+      <header> <!-- Header para representar o cabelaçho da página  -->
+
+           <!-- Veja as tags "img src", elas servem para insermos imagem na página, seja por meio da pasta local ou por meio de um site. -->
+           <!-- O atributo 'alt' é recomendado para colocar uma descrição na imagem, auxilia para a Acessibilidade no caso de a imagem não aparecer em algum navegador, por exemplo, vai aparecer o conteúdo do 'alt' -->
+      	  <img src="imagens/nebulosa.jpg" height="450" alt=" Foto de Nebulosa de Helix" class="universo">
+          <img src="https://assets.website-files.com/5e13801148d7ea3a15ec2dec/5e13806dc5e98ce97c01cecb_logo.svg" alt="Ícone da EDUZZ">
+          <h1 id="title"> Projeto Edduz </h1>
+      </header> <!-- A tag h1 representa o título da página -->
+
+      <section class="sect_model"> <!-- Section representa a nossa lista de posts, ou seja, uma representação genérica do conteúdo -->
+          <header> <!-- Representa o título da nossa seção de posts -->
+            <h2 class="subtitle"> Posts do Projeto EDDUZ </h2>
+
+          </header>
+
+          <article class="post">  <!-- 'article' representa um conteúdo propriamente dito da tag 'section', ou seja, aqui será um post propriamente dito -->
+            <header class="cabeçalho_article"> <!-- O título do nosso post -->
+              <h3 class="post_title"> Post #1  </h3> <!-- O lugar onde o post será  inserido -->
+               <!-- Mais uma tag abaixo de adicionar imagem por meio de um diretório local e não por meio de sites. -->
+              <img src="imagens/gatinho.jpg" alt="Imagem de um gato branqinho dormindo em uma cama." class="post_image">
+            </header>
+            <!-- Veja que uma tag 'p' foi aberta, indicando um parágrafo -->
+            <!-- Dentro da tag "p", uma tag 'a' com um atributo 'href' foi inserida para direcinar a palavra 'perspiciatis' para o link posto entre as aspas. MUUITO LEGAL!!! \o/ -->
+            <!-- Veja que após inserir o link foi inserido 'target="_blank". Tal atributo é um comando para direcionar o link para outro guia do navegador e não na mesma guia, muito legal! -->
+            <!-- Veja o comando '<a href="mailto:emaildealguem@gmail.com">Direcionar para E-mail </a>, serve para direcionar para um e-mail.  -->
+            <p class="post_content">"Sed ut <a href="https://www.youtube.com/" target="_blank">perspiciatis</a> unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis <a href="mailto:emaildealguem@gmail.com" target="_blank">Direcionar para E-mail</a>et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+
+          </article>
+
+      </section> 
+      <footer> 
+
+        <h2 class="title_list"> Notas importantes: </h2> <!-- Aqui é apenas um  título da lista -->
+         <ul class="contact_list"> <!-- Esta tag é utilizada para criar uma lista sem ordenação numérica, para mudar basta trocar <ul> e </ul> por <ol> e </ol>-->
+            <li> <a href="mailto:nicolasfgv99@gmail.com" target="_blank"> Este é o meu e-mail </a> </li> <!-- Esta tag 'li' corresponde ao item da nossa lista 'ul' -->
+            <li> <a href="https://tinypng.com/" target="_blank"> tinypng é um bom site para otimizar imagens </a></li>
+            <li> <a a href="https://www.linkedin.com/in/nicolas-felipe-gurgel-verpa-764ab41b5/" target="_blank"> Este é o meu perfil do Linkedin </a> </li>
+            <li> <a href="https://github.com/nicolasfgv" target="_blank"> Este é o meu repositório do Git Hub </a> </li>
+
+         </ul>
+         
+      </footer> <!-- Em 'footer', dá para ser inserido links, informações adicionais, ou seja, representa o RODAPÉ do conteúdo -->
+
+
+   </body>
+
+
+
+
+</html>

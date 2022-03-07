@@ -1,0 +1,76 @@
+.universo {
+	border: 20px solid black;
+    border-radius: 50px
+
+}
+
+body {
+  background: #eee;
+  max-height: 900px;
+  max-width: 900px;
+  margin: auto;
+}
+
+
+#title {
+   font-size: 75px;
+   font-style: italic;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+
+.subtitle {
+   text-decoration: overline;
+}
+
+
+.subtitle {
+  color: blue;
+  font-size: 50px;
+}
+
+.post {
+   background: #FFF;
+   padding: 5px green;
+   border: 5px solid #000;
+   margin: 3px pink;
+}
+
+.cabeçalho_article{
+	border-right: 5px;
+}
+
+.post_title {
+   font-size: 20px;
+   font-family: Arial;
+   font-style: italic;
+   margin: 5px;
+   padding: 5px;
+ } 
+
+
+.post_image{
+   width: 85%;
+}
+
+.post_content {
+   font-size: 25px;
+   margin: 2px;
+   padding: 2pc;
+   border: 2px
+   text-align: left;
+ }
+
+.title_list {
+	padding-left: 6px;
+}
+
+.contact_list {
+   list-style-type: square;
+   padding-left: 6px;
+}
+
+.contact_list li a {
+   text-decoration: none;
+}
